@@ -3,7 +3,7 @@ package Test;
 public class PrimeNumberCheck {
 
 	public static void main(String[] args) {
-		System.out.println(isPrime(19)); // true
+		System.out.println(isPrime(13)); // true
 		System.out.println(isPrime(49)); // false
 	}
 
