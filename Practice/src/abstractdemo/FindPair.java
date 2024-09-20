@@ -9,7 +9,7 @@ public class FindPair {
     
 		int [] arr = {1,2,3,4,7,5,8};
 		int num=12;
-//		int low=0 ,high=arr.length-1;
+		int low=0 ,high=arr.length-1;
 //		while(low<high)
 //		{
 //			if(arr[low] +arr[high] < num)
@@ -43,4 +43,5 @@ public class FindPair {
 	 }
 	}
 
-}
+	}
+

@@ -18,7 +18,7 @@ class Solution {
     	   {
     		   rst[0]=map.get(target-nums[i]);
     		   rst[1]=i;
-    		   break;		   
+    		   //break;		   
     	   }
     	   map.put(nums[i],i);
        }
