@@ -14,9 +14,10 @@ class Solution {
        HashMap<Integer, Integer> map = new HashMap<>();
        for(int i=0;i<nums.length;i++)
        {
-    	   if(map.containsKey(target-nums[i]))
+    	    int temp=target-nums[i];
+    	   if(map.containsKey(temp))
     	   {
-    		   rst[0]=map.get(target-nums[i]);
+    		   rst[0]=map.get(temp);
     		   rst[1]=i;
     		   //break;		   
     	   }
