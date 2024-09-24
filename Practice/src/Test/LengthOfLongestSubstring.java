@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class LengthOfLongestSubstring {
 
 	public static void main(String[] args) {
-	  String str ="bbbb";
+	  String str ="pwwkew";
 	  int result = lengthOfLongestSubstring(str);
 	  System.out.println(result);
      
@@ -20,7 +20,7 @@ public class LengthOfLongestSubstring {
 			Character currentChar = str.charAt(end);
 		   while(set.contains(currentChar))
 		   {
-			   set.remove(str.charAt(end));
+			   set.remove(str.charAt(start));
 			   start++;
 		   }
 		   set.add(currentChar);

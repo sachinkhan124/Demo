@@ -28,7 +28,7 @@ class Solution {
     
     public static void main(String[] args)
     {
-    	int arr[] = {2,7,11,15};
+    	int arr[] = {2,7,13,15};
     	int target =26;
     	int [] result = twoSum(arr,target);
     	System.out.println(Arrays.toString(result));
