@@ -6,7 +6,7 @@ public class RegularExpression {
 
 	    public static void main(String[] args) {
 	        String s = "ab";
-	        String p = ".*c";
+	        String p = "a";
 	        boolean result = isMatch(s, p);
 	        System.out.println(result);  // Output: false
 	    }
