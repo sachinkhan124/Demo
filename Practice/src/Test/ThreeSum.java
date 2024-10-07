@@ -14,7 +14,8 @@ public class ThreeSum {
 	}
 
 	private static int[] AddNumber(int[] num1, int[] num2, int[] num3) {
-		int maxLength=Math.max(num1.length, Math.max(num2.length, num3.length));
+		int maxLength = Math.max(num1.length, Math.max(num2.length, num3.length));
+
 		int [] result = new int[maxLength+1];
 		int carry=0;
 		for(int i=0;i<maxLength;i++)
