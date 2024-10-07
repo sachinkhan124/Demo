@@ -8,6 +8,7 @@ public class AddNumber {
 	public static void main(String[] args) {
 		int [] num1 = {3,4,3};
 		int [] num2 = {7,8,11};
+		
 		int [] result = Addnumber(num1,num2);
 		System.out.println(Arrays.toString(result));
 		
