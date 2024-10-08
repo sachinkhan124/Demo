@@ -14,6 +14,8 @@ public class AddNumber {
 		
 	}
 
+	
+
 	private static int[] Addnumber(int[] num1, int[] num2) {
 		int maxLength = Math.max(num1.length,num2.length);
 		int [] result = new int[maxLength+1];
@@ -32,7 +34,7 @@ public class AddNumber {
 		}
 		if(result[maxLength] ==0)
 		{
-			return Arrays.copyOf(result, maxLength);
+		return Arrays.copyOf(result, maxLength);
 		}
 		else
 		{

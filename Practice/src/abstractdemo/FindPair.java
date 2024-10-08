@@ -1,6 +1,7 @@
 package abstractdemo;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 public class FindPair {
@@ -30,18 +31,19 @@ public class FindPair {
 //		}
 		
 	 Map<Integer, Integer> map = new HashMap<>();
-	 for(int i=0;i<arr.length;i++)
-	 {
-		 int pair = num-arr[i];
-	 
-	 if(map.containsKey(pair))
-	 {
-		 System.out.println("Find pair:"+arr[i]+","+pair);
-	 }
-	  
-	 map.put(arr[i],i);
-	 }
-	}
+	   for(int i=0;i<arr.length;i++)
+	   {
+		   int pair = num-arr[i];
+		   if(map.containsKey(pair))
+		   {
+			   System.out.println("find pair:"+arr[i]+","+pair);
+		   }
+		   map.put(arr[i], num);
+	   }
+		
+		
+		
 
 	}
 
+}

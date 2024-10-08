@@ -8,9 +8,9 @@ public class ArrayReverser {
 		int right =array.length-1;
 		while(left<right)
 		{
-			int temp = array[left];
-			array[left] = array[right];
-			array[right] = temp;
+			int temp = array[left];//1    2 3 4
+			array[left] = array[right];//5 4  3 2
+			array[right] = temp;//1  2 3 4
 			left++;
 			right--;
 		}
