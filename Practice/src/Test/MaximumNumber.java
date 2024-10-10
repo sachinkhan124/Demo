@@ -9,20 +9,21 @@ public class MaximumNumber {
 }
 
 	private static int maximumNumber(int[] arr) {
-	 if(arr.length==0)
-	 {
-		 throw new IllegalArgumentException("value cannot be null");
-	 }
-	 int max =arr[0];
-	 for(int i=0;i<arr[i];i++)
-	 {
-		 
-		 if(arr[i] > max)
-		 {
-			 max =arr[i];
-		 }
-	 }
-		return max;
+		if(arr.length==0)
+		{
+			throw new IllegalArgumentException("valid length");
+		}
+		int max=arr[0];
+		for(int i =1;i<arr.length;i++)
+		{
+			if(arr[i]>max)
+			{
+				max=arr[i];
+			}
+		}
+		
+       return max;
+	
 	}
 
 	

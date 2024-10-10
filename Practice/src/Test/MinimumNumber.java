@@ -12,14 +12,15 @@ public class MinimumNumber {
 	private static int findNumber(int[] numbers) {
 		if(numbers.length==0)
 		{
-			throw new IllegalArgumentException("Invalid int number");
+			throw new IllegalArgumentException("invalid length");
+			
 		}
 		int min =numbers[0];
-		for(int i=0 ;i<numbers.length;i++)
+		for(int i=1;i<numbers.length;i++)
 		{
-			if(numbers[i] < min)
+			if(numbers[i]<min)
 			{
-				min =numbers[i];
+				min=numbers[i];
 			}
 		}
 		return min;
