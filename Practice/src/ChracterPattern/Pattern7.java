@@ -3,25 +3,24 @@ package ChracterPattern;
 public class Pattern7 {
 
 	public static void main(String[] args) {
-		for(int i=1;i<=7;i++)
-		{
-			char ch='A';
-//			for(int j=7-i;j>=1;j--)
-//			{
-//			    System.out.print(" ");	
-//			}
-			for(int j=i;j>=i;j++)
-			{
-				System.out.print(ch+" ");
-				ch++;
-			}
-			System.out.println();
-		}
+		
+	        int n = 7; // Number of rows
 
+	        for (int i = 1; i <= n; i++) {
+	            // Print leading spaces
+	            for (int j = n - i; j > 0; j--) {
+	                System.out.print(" ");
+	            }
+
+	            // Print characters in reverse order
+	            for (int j = i; j >= 1; j--) {
+	                System.out.print((char) ('A' + j - 1) + " ");
+	            }
+	            
+	            System.out.println(); // Move to the next line after each row
+	        }
 	}
-
 }
-
 
 //          A 
 //         B A 
